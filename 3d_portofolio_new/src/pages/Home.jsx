@@ -3,6 +3,7 @@ import { Canvas } from '@react-three/fiber'
 import Loader from '../components/Loader'
 import Island from '../models/Island'
 import Sky from '../models/Sky'
+import Bird from '../models/Bird'
 
 const Home = () => {
   const adjustIslandForScreenSize = () => {
@@ -34,6 +35,7 @@ const Home = () => {
           <directionalLight position={[1,1,1]} intensity={2}/>
           <ambientLight intensity={0.5} />
           <hemisphereLight skyColor='#b1e1ff' groundColor='#000000' />
+          <Bird />
           <Sky />
           <Island 
             position={islandPosition}
