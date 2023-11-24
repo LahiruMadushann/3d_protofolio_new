@@ -4,6 +4,7 @@ import { Canvas } from '@react-three/fiber'
 import Fox from '../models/Fox'
 import Loader from '../components/Loader'
 import useAlert from '../hooks/useAlert'
+import Alert from '../components/Alert'
 
 const Contact = () => {
   const formRef = useRef(null)
