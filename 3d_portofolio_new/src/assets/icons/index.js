@@ -1,7 +1,7 @@
 import css from './css.svg'
 import express from './express.svg'
 import git from './git.svg'
-import github from './github.svg'
+import github from './github.png'
 import html from './html.svg'
 import javascript from './javascript.svg'
 import mongodb from './mongodb.svg'
@@ -26,6 +26,18 @@ import arrow from './arrow.svg'
 import contact from './contact.svg'
 import soundon from './soundon.png'
 import soundoff from './soundoff.png'
+import backend from './backend.png'
+import creator from './creator.png'
+import docker from './docker.png'
+import figma from './figma.png'
+import jobit from './jobit.png'
+import mobile from './mobile.png'
+import reactjs from './reactjs.png'
+import tailwind from './tailwind.png'
+import threejs from './threejs.svg'
+import tripguide from './tripguide.png'
+import web from './web.png'
+
 
 export {
     css,
@@ -55,5 +67,17 @@ export {
     arrow,
     contact,
     soundon,
-    soundoff
+    soundoff,
+    backend,
+    creator,
+    docker,
+    figma,
+    jobit,
+    mobile,
+    reactjs,
+    tailwind,
+    threejs,
+    tripguide,
+    web,
+   
 }

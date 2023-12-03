@@ -1,4 +1,5 @@
-import { meta, shopify, starbucks, tesla } from "../assets/images";
+import { meta, shopify, starbucks, tesla, uwu } from "../assets/images";
+
 import {
     car,
     contact,
@@ -23,8 +24,21 @@ import {
     summiz,
     tailwindcss,
     threads,
-    typescript
+    typescript,
+    mobile,
+    backend,
+    creator,
+    web,
+    reactjs,
+    tailwind,
+    figma,
+    docker,
+    jobit,
+    tripguide,
+    threejs,
 } from "../assets/icons";
+
+import {seacucumber,bookingApp, hotel, hospital, gameHub, beahome} from "../assets/projectImage"
 
 export const skills = [
     {
@@ -111,57 +125,57 @@ export const skills = [
 
 export const experiences = [
     {
-        title: "React.js Developer",
-        company_name: "Starbucks",
-        icon: starbucks,
-        iconBg: "#accbe1",
-        date: "March 2020 - April 2021",
+        title: "MERN Stack Developer",
+        company_name: "UWU",
+        icon: uwu,
+        iconBg: "#E7F2F8",
+        date: "May 2023 - Octomber 2023",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
-    },
-    {
-        title: "React Native Developer",
-        company_name: "Tesla",
-        icon: tesla,
-        iconBg: "#fbc3bc",
-        date: "Jan 2021 - Feb 2022",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
-    },
-    {
-        title: "Web Developer",
-        company_name: "Shopify",
-        icon: shopify,
-        iconBg: "#b7e4c7",
-        date: "Jan 2022 - Jan 2023",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+            "Developing and maintaining web application and mobile application using React.js, React Native,Node js,Tailwind CSS, MongoDB and other related technologies.",
+            "Collaborating with team members including UI/UX designer, Supervisor, and other developers to create high-quality products.",
             "Implementing responsive design and ensuring cross-browser compatibility.",
             "Participating in code reviews and providing constructive feedback to other developers.",
         ],
     },
     {
         title: "Full stack Developer",
-        company_name: "Meta",
-        icon: meta,
-        iconBg: "#a2d2ff",
-        date: "Jan 2023 - Present",
+        company_name: "UWU",
+        icon: uwu,
+        iconBg: "#E7F2F8",
+        date: "June 2022 - November 2022",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+            "Developing and maintaining web applications using PHP,HTML,CSS,Js,Bootstrap and other related technologies.",
+            "Collaborating with team members including supervisor and other developers to create high-quality products.",
             "Implementing responsive design and ensuring cross-browser compatibility.",
             "Participating in code reviews and providing constructive feedback to other developers.",
         ],
     },
+    {
+        title: "JavaFX Developer",
+        company_name: "UWU",
+        icon: uwu,
+        iconBg: "#E7F2F8",
+        date: "June 2022 - November 2022",
+        points: [
+            "Developing and maintaining Desktop applications using JavaFX,Hibernate,CSS and other related technologies.",
+            "Collaborating with team members including supervisor and other developers to create high-quality products.",
+            "Implementing  ensuring Windows-OS compatibility.",
+            "Participating in code reviews and providing constructive feedback to other developers.",
+        ],
+    },
+    // {
+    //     title: "Full stack Developer",
+    //     company_name: "Meta",
+    //     icon: meta,
+    //     iconBg: "#E7F2F8",
+    //     date: "Jan 2023 - Present",
+    //     points: [
+    //         "Developing and maintaining web applications using HTML,CSS,Js,Bootstrap and other related technologies.",
+    //         "Collaborating with team members including supervisor and other developers to create high-quality products.",
+    //         "Implementing responsive design and ensuring cross-browser compatibility.",
+    //         "Participating in code reviews and providing constructive feedback to other developers.",
+    //     ],
+    // },
 ];
 
 export const socialLinks = [
@@ -182,47 +196,203 @@ export const socialLinks = [
     }
 ];
 
+// export const projects = [
+//     {
+//         iconUrl: pricewise,
+//         theme: 'btn-back-red',
+//         name: 'Sea Cucumber Management System',
+//         description: 'Developed a Mobile and Web application that manages and get knowledge about Sea Cumber in Sri Lanka, It creates using React Native, React js, Node js, Tailwind CSS and MongoDB',
+//         link: 'https://github.com/LahiruMadushann/SEA_CUCUMBER_MANAGEMENT_SYSTEM',
+//     },
+//     {
+//         iconUrl: threads,
+//         theme: 'btn-back-green',
+//         name: 'MERN Stack Booking App',
+//         description: 'Created a full-stack Web Applications to book hotels in Sri Lanka. It creates using React js, Node js, Express js, Tailwind CSS and MongoDB.',
+//         link: 'https://github.com/LahiruMadushann/Booking_App',
+//     },
+//     {
+//         iconUrl: car,
+//         theme: 'btn-back-blue',
+//         name: 'Hotel and Restaurant Billing System',
+//         description: 'Created a Desktop Application to book hotels and order foods . It creates using JavaFX, Hibernate and CSS.',
+//         link: 'https://github.com/LahiruMadushann/Hotel_and_Restaurent_Billing_System',
+//     },
+//     {
+//         iconUrl: snapgram,
+//         theme: 'btn-back-pink',
+//         name: 'Full Stack Instagram Clone',
+//         description: 'Built a complete clone of Instagram, allowing users to share photos and connect with friends in a familiar social media environment.',
+//         link: 'https://github.com/LahiruMadushann/Hotel_and_Restaurent_Billing_System',
+//     },
+//     {
+//         iconUrl: estate,
+//         theme: 'btn-back-black',
+//         name: 'Real-Estate Application',
+//         description: 'Developed a web application for real estate listings, facilitating property searches and connecting buyers with sellers.',
+//         link: 'https://github.com/LahiruMadushann/Hotel_and_Restaurent_Billing_System',
+//     },
+//     {
+//         iconUrl: summiz,
+//         theme: 'btn-back-yellow',
+//         name: 'AI Summarizer Application',
+//         description: 'App that leverages AI to automatically generate concise & informative summaries from lengthy text content, or blogs.',
+//         link: 'https://github.com/LahiruMadushann/Hotel_and_Restaurent_Billing_System',
+//     }
+// ];
+
 export const projects = [
     {
-        iconUrl: pricewise,
-        theme: 'btn-back-red',
-        name: 'Amazon Price Tracker',
-        description: 'Developed a web application that tracks and notifies users of price changes for products on Amazon, helping users find the best deals.',
-        link: 'https://github.com/adrianhajdin/pricewise',
+      name: "Sea Cucumber Management System",
+      description:
+        "Developed a Mobile and Web application that manages and get knowledge about Sea Cumber in Sri Lanka, It creates using React Native, React js, Node js, Tailwind CSS and MongoDB.",
+      tags: [
+        {
+          name: "react native",
+        },
+        {
+            name: "react js",
+              
+        },
+        {
+            name: "node js",
+              
+        },
+        {
+          name: "mongodb",
+        },
+        {
+          name: "tailwind",
+            
+        },
+      ],
+      image: seacucumber,
+      source_code_link: "https://github.com/LahiruMadushann/SEA_CUCUMBER_MANAGEMENT_SYSTEM",
     },
+    
     {
-        iconUrl: threads,
-        theme: 'btn-back-green',
-        name: 'Full Stack Threads Clone',
-        description: 'Created a full-stack replica of the popular discussion platform "Threads," enabling users to post and engage in threaded conversations.',
-        link: 'https://github.com/adrianhajdin/threads',
-    },
-    {
-        iconUrl: car,
-        theme: 'btn-back-blue',
-        name: 'Car Finding App',
-        description: 'Designed and built a mobile app for finding and comparing cars on the market, streamlining the car-buying process.',
-        link: 'https://github.com/adrianhajdin/project_next13_car_showcase',
-    },
-    {
-        iconUrl: snapgram,
-        theme: 'btn-back-pink',
-        name: 'Full Stack Instagram Clone',
-        description: 'Built a complete clone of Instagram, allowing users to share photos and connect with friends in a familiar social media environment.',
-        link: 'https://github.com/adrianhajdin/social_media_app',
-    },
-    {
-        iconUrl: estate,
-        theme: 'btn-back-black',
-        name: 'Real-Estate Application',
-        description: 'Developed a web application for real estate listings, facilitating property searches and connecting buyers with sellers.',
-        link: 'https://github.com/adrianhajdin/projects_realestate',
-    },
-    {
-        iconUrl: summiz,
-        theme: 'btn-back-yellow',
-        name: 'AI Summarizer Application',
-        description: 'App that leverages AI to automatically generate concise & informative summaries from lengthy text content, or blogs.',
-        link: 'https://github.com/adrianhajdin/project_ai_summarizer',
-    }
-];
+        name: "Booking App",
+        description:
+          "Created a full-stack Web Applications to book hotels in Sri Lanka. It's a comprehensive travel booking platform that allows users to book hotels and offers  recommendations for popular destinations. It creates using React js, Node js, Express js, Tailwind CSS and MongoDB.",
+        tags: [
+        
+            {
+              name: "react js",
+                  
+            },
+            {
+              name: "node js",
+                  
+            },
+            {
+              name: "express js",
+                
+            },
+            {
+              name: "mongodb",
+            },
+            {
+              name: "tailwind",
+                
+            },
+        ],
+        image: bookingApp,
+        source_code_link: "https://github.com/LahiruMadushann/Booking_App",
+      },
+      {
+        name: "Hotel and Restaurant Billing System",
+        description:
+          "Created a Desktop Application to book hotels and order foods . It creates using JavaFX, Hibernate and CSS.",
+        tags: [
+          {
+            name: "javaFX",
+            
+          },
+          {
+            name: "hibernate",
+            
+          },
+          {
+            name: "css",
+            
+          },
+        ],
+        image: hotel,
+        source_code_link: "https://github.com/",
+      },
+      {
+        name: "E-channelling System for Animal Hospitals",
+        description:
+          "Created a Desktop Application to book hotels and order foods . It creates using JavaFX, Hibernate and CSS.",
+        tags: [
+          {
+            name: "php",
+            
+          },
+          {
+            name: "javascript",
+            
+          },
+          {
+            name: "bootstrap",
+            
+          },
+          {
+            name: "css",
+            
+          },
+        ],
+        image: hospital,
+        source_code_link: "https://github.com/LahiruMadushann/E-channelling-System-for-Animal-Hospitals-Public",
+      },
+      {
+        name: "Game Hub",
+        description:
+          "Created a Desktop Application to book hotels and order foods . It creates using JavaFX, Hibernate and CSS.",
+        tags: [
+          {
+            name: "react",
+            
+          },
+          {
+            name: "typescript",
+            
+          },
+          {
+            name: "tailwind",
+            
+          },
+          {
+            name: "css",
+            
+          },
+        ],
+        image: gameHub,
+        source_code_link: "https://github.com/LahiruMadushann/game-hub",
+      },
+      {
+        name: "Be a Home",
+        description:
+          "Created a Desktop Application to book hotels and order foods . It creates using JavaFX, Hibernate and CSS.",
+        tags: [
+            {
+                name: "php",
+                
+            },
+            {
+                name: "javascript",
+                
+            },
+            {
+                name: "bootstrap",
+                
+            },
+            {
+                name: "css",
+                
+            },
+        ],
+        image: beahome,
+        source_code_link: "https://github.com/LahiruMadushann/Street-Animal",
+      },
+  ];
