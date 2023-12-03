@@ -17,7 +17,7 @@ const ProjectCard = ({index, name, description,tags,image,source_code_link}) => 
           scale:1,
           speed: 450
         }}
-        className="bg-gradient-to-r from-blue-200 to-cyan-200 p-5  rounded-2xl sm:w-[360px] w-full">
+        className="bg-gradient-to-r from-cyan-100 to-sky-300 p-5  rounded-2xl sm:w-[360px] w-full">
           <div className="relative w-full h-[230px]">
             <img 
               src={image}
@@ -37,7 +37,7 @@ const ProjectCard = ({index, name, description,tags,image,source_code_link}) => 
               </div>
           </div>
           <div className="mt-5">
-            <h3 className="blue-gradient_text text-[24px]">{name}</h3>
+            <h3 className="blue-gradient_text text-[24px] ">{name}</h3>
             <p className="mt-2 text-slate-700 text-[14px]"> {description} </p>
           </div>
           <div className="mt-4 flex flex-wrap gap-2">
